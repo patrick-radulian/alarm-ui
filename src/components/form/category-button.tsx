@@ -36,7 +36,7 @@ export const CategoryButton = ({
 
             categorySelection?.scrollIntoView({
                 behavior: "smooth",
-                block: "start",
+                block: "center",
             });
         });
     };

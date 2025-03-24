@@ -36,7 +36,7 @@ export const PerimeterButton = ({
 
             categorySelection?.scrollIntoView({
                 behavior: "smooth",
-                block: "start",
+                block: "center",
             });
         });
     };
