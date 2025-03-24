@@ -4,9 +4,9 @@ import { createContext, useContext, useState } from "react";
 
 type FormContextType = {
     perimeter: "GBT" | "CBT" | null;
-    setPerimeter: (perimeter: "GBT" | "CBT") => void;
+    setPerimeter: (perimeter: "GBT" | "CBT" | null) => void;
     category: "fire" | "collapse" | "flood" | null;
-    setCategory: (category: "fire" | "collapse" | "flood") => void;
+    setCategory: (category: "fire" | "collapse" | "flood" | null) => void;
 };
 
 const initialState: FormContextType = {

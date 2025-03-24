@@ -3,6 +3,7 @@
 import { useFormContext } from "@/components/form/form-context";
 import { CategorySelection } from "@/components/form/form-sections/category-selection";
 import { PerimeterSelection } from "@/components/form/form-sections/perimeter-selection";
+import { ResetButton } from "@/components/form/reset-button";
 import { SubmitButton } from "@/components/form/submit-button";
 import { Button } from "@/components/ui/button";
 import { MoonStarIcon, SunIcon } from "lucide-react";
@@ -64,6 +65,7 @@ export const AlarmForm = () => {
             <PerimeterSelection />
             {perimeter ? <CategorySelection /> : null}
             {category ? <SubmitButton /> : null}
+            {category ? <ResetButton /> : null}
         </div>
     );
 };
