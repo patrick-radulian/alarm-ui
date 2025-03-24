@@ -50,7 +50,7 @@ export const AlarmForm = () => {
                 <Button
                     variant="ghost"
                     size="icon"
-                    className="p-0 bg-transparent outline-2 rounded-none shrink-0 grow ring-0 focus-visible:ring-0 text-red-600 hover:text-red-700 focus-visible:text-red-700 outline-red-700/0 hover:outline-red-700 focus-visible:outline-red-700"
+                    className="p-0 bg-transparent outline-2 rounded-none ring-0 focus-visible:ring-0 text-red-600 hover:text-red-700 focus-visible:text-red-700 outline-red-700/0 hover:outline-red-700 focus-visible:outline-red-700"
                     onClick={toggleTheme}
                 >
                     {theme === "light" ? (
