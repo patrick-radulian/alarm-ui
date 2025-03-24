@@ -33,24 +33,24 @@ export const AlarmForm = () => {
     }, []);
 
     return (
-        <div className="bg-zinc-100 dark:bg-zinc-900/50 h-dvh">
-            <div className="flex items-center justify-between">
-                <div>
-                    <Button variant="ghost" className="relative h-10 rounded-none uppercase opacity-50">
-                        Kein aktiver Alarm
+        <div className="bg-zinc-100 dark:bg-zinc-900/50 min-h-dvh pb-12">
+            <div className="flex items-center justify-between min-w-0 gap-4">
+                <div className="flex flex-nowrap min-w-0">
+                    <Button variant="ghost" className="relative h-10 rounded-none uppercase opacity-50 grow shrink overflow-hidden basis-0">
+                        <span className="overflow-hidden text-ellipsis">Kein aktiver Alarm</span>
                     </Button>
                     <Button
                         variant="ghost"
-                        className="group relative h-10 uppercase rounded-none outline-0 text-red-600 hover:text-red-700 ring-0 focus-visible:ring-0"
+                        className="group relative h-10 uppercase rounded-none grow shrink overflow-hidden basis-0 outline-0 text-red-600 hover:text-red-700 ring-0 focus-visible:ring-0"
                     >
-                        Alarm erstellen
+                        <span className="overflow-hidden text-ellipsis">Alarm erstellen</span>
                         <div className="absolute bottom-0 w-full h-0.5 bg-red-600 origin-bottom transition-[scale] group-hover:scale-y-400 group-focus-visible:scale-y-400 " />
                     </Button>
                 </div>
                 <Button
                     variant="ghost"
                     size="icon"
-                    className="p-0 bg-transparent outline-2 rounded-none ring-0 focus-visible:ring-0 text-red-600 hover:text-red-700 focus-visible:text-red-700 outline-red-700/0 hover:outline-red-700 focus-visible:outline-red-700"
+                    className="p-0 bg-transparent outline-2 rounded-none shrink-0 grow ring-0 focus-visible:ring-0 text-red-600 hover:text-red-700 focus-visible:text-red-700 outline-red-700/0 hover:outline-red-700 focus-visible:outline-red-700"
                     onClick={toggleTheme}
                 >
                     {theme === "light" ? (

@@ -28,7 +28,7 @@ function Toast(props: ToastProps) {
     const { title, description, button, id } = props;
 
     return (
-        <div className="flex rounded-md shadow-lg w-full md:max-w-[480px] text-white items-center p-4 bg-red-600 hover:bg-red-700 focus-visible:bg-red-700 ring-0 focus-visible:ring-0">
+        <div className="flex rounded-md shadow-lg w-full md:max-w-[480px] text-white items-center p-4 bg-red-600 hover:bg-red-700 focus-visible:bg-red-700 ring-0 focus-visible:ring-0 border-2 border-white">
             <div className="flex flex-1 items-center gap-4">
                 <CheckCircleIcon size={32} />
                 <div className="w-full">

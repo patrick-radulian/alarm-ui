@@ -11,10 +11,15 @@ export const CategorySelection = () => {
     const { category, setCategory } = useFormContext();
 
     return (
-        <div className="grid justify-center animate-in [--tw-enter-translate-y:10%] duration-250 fade-in-0">
-            <h1 className="text-zinc-800 dark:text-zinc-300 text-center my-8 text-2xl font-semibold">2. Kategorie wählen:</h1>
+        <div
+            id="category-selection"
+            className="grid grid-cols-1 justify-center animate-in [--tw-enter-translate-y:10%] duration-250 fade-in-0"
+        >
+            <h1 className="text-zinc-800 px-2 dark:text-zinc-300 text-center mt-8 mb-2 md:mb-6 text-2xl font-semibold">
+                2. Kategorie wählen:
+            </h1>
 
-            <div className="flex gap-12 items-center justify-center">
+            <div className="flex md:gap-12 px-[6dvw] py-2 md:py-3 max-w-dvw space-x-[5dvw] overflow-auto md:space-x-0 md:justify-center">
                 <CategoryButton
                     activationValue="fire"
                     imgSrcActive={Fire_red}
