@@ -17,7 +17,7 @@ export const PerimeterSelection = () => {
                 1. Alarmierungsperimeter wählen:
             </h1>
 
-            <div className="flex md:gap-12 items-center px-[6dvw] py-2 space-x-[6dvw] justify-center">
+            <div className="flex md:gap-12 items-center px-[6dvw] py-2 space-x-[6dvw] justify-center md:space-x-0">
                 <PerimeterButton
                     activationValue="GBT"
                     imgSrcActive={GBT_red}

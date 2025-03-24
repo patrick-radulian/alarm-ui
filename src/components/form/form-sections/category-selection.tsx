@@ -19,7 +19,7 @@ export const CategorySelection = () => {
                 2. Kategorie wählen:
             </h1>
 
-            <div className="flex md:gap-12 px-[6dvw] py-2 md:py-3 max-w-dvw space-x-[5dvw] overflow-auto md:space-x-0 md:justify-center">
+            <div className="flex md:gap-12 px-[6dvw] py-2 md:py-3 max-w-dvw space-x-[5dvw] overflow-auto md:overflow-visible md:space-x-0 md:justify-center">
                 <CategoryButton
                     activationValue="fire"
                     imgSrcActive={Fire_red}
