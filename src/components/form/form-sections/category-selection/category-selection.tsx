@@ -56,7 +56,6 @@ export const CategorySelection = () => {
                     <h3 className="text-zinc-800 px-2 dark:text-zinc-300 text-center mb-2 md:mb-4 text-md font-semibold">
                         Optional ändern:
                     </h3>
-                    {/* <div className="relative grid grid-cols-2 grid-rows-2 md:gap-4 items-center px-[2dvw] py-2 space-x-[2dvw] justify-center md:space-x-0 animate-in [--tw-enter-translate-y:10%] duration-250 fade-in-0"> */}
                     <div className="relative px-[6dvw] py-2 space-y-4 md:px-[50px] md:grid md:grid-cols-2 md:grid-rows-2 md:gap-x-[25px] md:gap-y-[12px] md:items-center md:justify-center md:space-x-0">
                         <AlarmTextInputDE />
                         <AlarmTextInputIT />

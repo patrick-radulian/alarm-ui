@@ -50,7 +50,6 @@ export const PerimeterSelection = () => {
                     <h3 className="text-zinc-800 px-2 dark:text-zinc-300 text-center mb-2 md:mb-4 text-md font-semibold">
                         Optional ändern:
                     </h3>
-                    {/* <div className="relative flex md:gap-4 px-[6dvw] items-center py-2 space-x-[2dvw] justify-center md:space-x-0 animate-in [--tw-enter-translate-y:10%] duration-250 fade-in-0"> */}
                     <div className="relative px-[6dvw] py-2 space-y-4 md:px-[50px] md:flex md:gap-x-[50px] md:items-center md:justify-center md:space-x-0">
                         <OperationSelection />
                         <RolesSelection />
